@@ -1,43 +1,43 @@
-Student Marks Prediction Using Machine Learning
+# 🎓 Student Marks Prediction Using Machine Learning
 
-📌 Project Overview
+## 📌 Project Overview
 
-Student Marks Prediction is a Machine Learning project that predicts a student's final marks based on factors such as study hours, attendance percentage, and previous marks.
+**Student Marks Prediction** is a Machine Learning project that predicts a student's final marks based on factors such as study hours, attendance percentage, and previous marks.
 
-The project uses Linear Regression to train a machine learning model and predict the expected final marks of a student.
+The project uses **Linear Regression** to train a Machine Learning model and predict the expected final marks of a student.
 
-🎯 Objective
+## 🎯 Objective
 
 The main objective of this project is to understand how Machine Learning can be used to predict student academic performance based on different input factors.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
 
-🤖 Machine Learning Algorithm
+## 🤖 Machine Learning Algorithm
 
-Linear Regression
+### Linear Regression
 
 Linear Regression is used to establish a relationship between the input features and the student's final marks.
 
-📊 Input Features
+## 📊 Input Features
 
 The model uses the following features:
 
-- Study Hours – Number of hours the student studies.
-- Attendance – Student's attendance percentage.
-- Previous Marks – Marks obtained previously by the student.
+* **Study Hours** – Number of hours the student studies.
+* **Attendance** – Student's attendance percentage.
+* **Previous Marks** – Marks obtained previously by the student.
 
-🎯 Target Variable
+## 🎯 Target Variable
 
-- Final Marks – The predicted final marks of the student.
+* **Final Marks** – The predicted final marks of the student.
 
-🔄 Project Workflow
+## 🔄 Project Workflow
 
 1. Import the required Python libraries.
 2. Create and prepare the dataset.
@@ -49,81 +49,87 @@ The model uses the following features:
 8. Evaluate the model performance.
 9. Visualize the actual and predicted marks.
 
-📈 Model Evaluation
+## 📈 Model Evaluation
 
 The model performance is evaluated using:
 
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R² Score
+* **Mean Absolute Error (MAE)**
+* **Mean Squared Error (MSE)**
+* **Root Mean Squared Error (RMSE)**
+* **R² Score**
 
-The R² Score is used to understand how well the model explains the variation in the target marks.
+The R² Score helps understand how well the model explains the variation in the target marks.
 
-💡 Example Prediction
+## 💡 Example Prediction
 
 For example, if a student has:
 
-Feature| Value
-Study Hours| 6 hours
-Attendance| 80%
-Previous Marks| 65
+| Feature        |   Value |
+| -------------- | ------: |
+| Study Hours    | 6 hours |
+| Attendance     |     80% |
+| Previous Marks |      65 |
 
-The trained model can predict the student's expected final marks.
+The trained model can use these values to predict the student's expected final marks.
 
-📊 Visualization
+## 📊 Visualization
 
 The project includes graphs such as:
 
-- Actual Marks vs Predicted Marks
-- Study Hours vs Final Marks
+* Actual Marks vs Predicted Marks
+* Study Hours vs Final Marks
 
 These visualizations help understand the relationship between the input features and student performance.
 
-▶️ How to Run the Project
+## ▶️ How to Run the Project
 
-Using Google Colab
+### Using Google Colab
 
 1. Open the project notebook.
-2. Upload/open the ".ipynb" file in Google Colab.
+2. Upload or open the `.ipynb` file in Google Colab.
 3. Run the cells from top to bottom.
 4. View the model results and graphs.
 5. Enter new student details to generate a prediction.
 
-📁 Project Structure
+## 📁 Project Structure
 
+```text
 student-marks-prediction/
 │
 ├── Student_Marks_Prediction.ipynb
 └── README.md
+```
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 The project can be improved by:
 
-- Using a larger real-world student dataset.
-- Adding more features such as assignment scores, sleep hours, study habits, and extracurricular activities.
-- Comparing multiple Machine Learning algorithms.
-- Developing a simple web application for prediction.
-- Improving model accuracy with better data preprocessing and feature engineering.
+* Using a larger real-world student dataset.
+* Adding more features such as assignment scores, sleep hours, study habits, and extracurricular activities.
+* Comparing multiple Machine Learning algorithms.
+* Developing a simple web application for prediction.
+* Improving model accuracy with better data preprocessing and feature engineering.
 
-🎓 Learning Outcomes
+## 🎓 Learning Outcomes
 
 Through this project, I gained practical knowledge of:
 
-- Python programming
-- Data preprocessing
-- Exploratory data analysis
-- Machine Learning
-- Linear Regression
-- Model evaluation
-- Data visualization
-- Google Colab
+* Python programming
+* Data preprocessing
+* Exploratory Data Analysis
+* Machine Learning
+* Linear Regression
+* Model Evaluation
+* Data Visualization
+* Google Colab
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Sandhiya S
+**Sandhiya S**
 
 ---
 
-⭐ If you find this project useful, feel free to star the repository1
+⭐ If you find this project useful, feel free to star the repository!
+
+
+
